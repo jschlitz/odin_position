@@ -1,0 +1,50 @@
+img {
+  margin: 4px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.quarter {
+  display: inline-block;
+  margin: 0 1%;
+  width: 23%;
+}
+
+.quarter-float {
+  float: left;
+  margin: 0 1%;
+  width: 23%;
+  height: 100px;
+}
+
+.other-article {
+  /* float: left;*/
+  display: inline-block;
+  margin: 0 1%;
+  width: 23%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.other-article-container {
+}
+
+
+/*some distinct colors*/
+
+.c0 { background-color: #886655;}
+.c1 {   background-color: #dddddd;}
+.c2 { background-color: #ddffdd;}
+.c3 { background-color: #eeeebb;}
+.c4 { background-color: #77aa66;}
+.c5 { background-color: #7755ff;}
+.c6 { background-color: #eeaadd;}
+.c7 { background-color: #bbaa55;}
+.c8 { background-color: #ee66dd;}
+.c9 { background-color: #55cccc;}
