@@ -6,8 +6,17 @@ div {
   margin: 4px;
 }
 
-.left {
-  float: left;
+h3, h4 {
+  margin: 2px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: small;
+  font-weight: lighter;
 }
 
 .top-bar{
@@ -17,14 +26,6 @@ div {
   top: 0;
   left: 0;
   z-index: 1;
-}
-
-.right {
-  float: right;
-}
-
-.blocky {
-  display: block;
 }
 
 .quarter {
@@ -63,16 +64,62 @@ div {
   margin: 50px 0 0 0;
 }
 
+#main-content{
+  margin: 4px 50px;
+}
+
+#headline{
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+
+.article-text {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#breakout {
+  border-color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.breakout-image{
+  width:100%;
+}
+
+.breakout-item {
+  height:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* some utility classes */
+
+.left {  float: left;}
+.right {  float: right;}
+.blocky {  display: block;}
+
 .cf:before,
 .cf:after {
     content: "";
     display: table;
 }
-
-.cf:after {
-    clear: both;
-}
-
+.cf:after {clear: both;}
 
 /*some distinct colors*/
 .c0 { background-color: #ccb8b8;}
