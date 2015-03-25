@@ -47,7 +47,6 @@ figcaption {
   float: left;
   margin: 0 1%;
   width: 23%;
-  height: 100px;
 }
 
 .other-article {
@@ -94,7 +93,6 @@ figcaption {
 }
 
 .breakout-item {
-  height:400px;
 }
 
 
