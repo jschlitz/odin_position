@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  margin: 4px;
+}
+
+div {
+  margin: 9px;
+}
+
+h3, h4 {
+  margin: 2px;
+}
+h2 {
+  margin: 0.5em;
+}
+button{
+  margin: 2px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.other-article-container {
+  display:  flex;
+  margin:   78px 4px 4px 4px;
+}
+
+.other-article {
+  flex:     1 1 333px;
+  display:  flex;
+  height:   100px;
+  overflow: hidden;
+}
+
+.other-article2 {
+  flex:     1 1 333px;
+  width: 300px;
+  display:  flex;
+  height:   100px;
+  overflow: hidden;
+}
+
+
+.oa-img {
+  flex:     none;
+  width:    92px;
+}
+
+.oa-p {
+  flex:   1;
+}
+
+
+.top-bar{
+  z-index:  1;
+  top:      0;
+  left:     0;
+  position: fixed;
+  display:  flex;
+  width:    100%;
+  padding:  0 12px 0 0;
+}
+
+.push-left {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+.push-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.push-center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#main-content{
+  margin: 4px 50px;
+}
+
+#headline{
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.article-text {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#breakout {
+  border-color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.breakout-image{
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* some utility classes */
+
+
+
+/*some distinct colors*/
+.c0 { background-color: #ccb8b8;}
+.c1 { background-color: #ffbdb3;}
+.c2 { background-color: #cc8f66;}
+.c3 { background-color: #e5bf73;}
+.c4 { background-color: #fffae6;}
+.c5 { background-color: #fcffcc;}
+.c6 { background-color: #b0e673;}
+.c7 { background-color: #a3ccb4;}
+.c8 { background-color: #80ffc3;}
+.c9 { background-color: #b3faff;}
+.c10 { background-color: #73bfe6;}
+.c11 { background-color: #e6f3ff;}
+.c12 { background-color: #73a1e6;}
+.c13 { background-color: #ccdaff;}
+.c14 { background-color: #9180ff;}
+.c15 { background-color: #eb99ff;}
+.c26 { background-color: #ffccf5;}
+.c17 { background-color: #e673b0;}
+.c18 { background-color: #e57382;}
