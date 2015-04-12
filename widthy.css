@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body::after {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  margin: 0;
+  position:fixed;
+  content: "324";
+  background-color: hsl(0, 50%, 75%)
+}
+
+@media (min-width: 432px){
+  body::after {
+    content: "432";
+    background-color: hsl(72, 50%, 75%)
+  }
+}
+@media (min-width: 576px){
+  body::after {
+    content: "576";
+    background-color: hsl(144, 50%, 75%)
+  }
+}
+@media (min-width: 768px){
+  body::after {
+    content: "768";
+    background-color: hsl(216, 50%, 75%)
+  }
+}
+@media (min-width: 1024px){
+  body::after {
+    content: "1024";
+    background-color: hsl(288, 50%, 75%)
+  }
+}

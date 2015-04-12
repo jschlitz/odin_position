@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-grid {
+  margin: 0 2%;
+  width: 100%;
+  display:  flex;
+}
+
+.c1-3 {
+  flex: 0 0 30%;
+  margin-left: 2%;
+}
+
+.c1-6 {
+  flex: 0 0 14%;
+  margin-left: 2%;
+}
+
+.c1-4 {
+  flex: 0 0 22%;
+  margin-left: 2%;
+}
+
+
+.first {
+  margin-left: -2%;
+}
+
+
+.row {
+  margin: -2%;
+  background-color: hsl(110, 50%, 75%);
+  display:  flex;
+}
+
+
+
+/*some distinct colors*/
+.c01 { background-color: hsl(10, 50%, 75%);}
+.c02 { background-color: hsl(20, 50%, 75%);}
+.c03 { background-color: hsl(30, 50%, 75%);}
+.c04 { background-color: hsl(40, 50%, 75%);}
+.c05 { background-color: hsl(50, 50%, 75%);}
+.c06 { background-color: hsl(60, 50%, 75%);}
+.c07 { background-color: hsl(70, 50%, 75%);}
+.c08 { background-color: hsl(80, 50%, 75%);}
+.c09 { background-color: hsl(90, 50%, 75%);}
+.c10 { background-color: hsl(100, 50%, 75%);}
+.c11 { background-color: hsl(110, 50%, 75%);}
+.c12 { background-color: hsl(120, 50%, 75%);}
+.c13 { background-color: hsl(130, 50%, 75%);}
+.c14 { background-color: hsl(140, 50%, 75%);}
+.c15 { background-color: hsl(150, 50%, 75%);}
+.c16 { background-color: hsl(160, 50%, 75%);}
+.c17 { background-color: hsl(170, 50%, 75%);}
+.c18 { background-color: hsl(180, 50%, 75%);}
+.c19 { background-color: hsl(190, 50%, 75%);}
+.c20 { background-color: hsl(200, 50%, 75%);}
+.c21 { background-color: hsl(210, 50%, 75%);}
+.c22 { background-color: hsl(220, 50%, 75%);}
+.c23 { background-color: hsl(230, 50%, 75%);}
+.c24 { background-color: hsl(240, 50%, 75%);}
+.c25 { background-color: hsl(250, 50%, 75%);}
+.c26 { background-color: hsl(260, 50%, 75%);}
+.c27 { background-color: hsl(270, 50%, 75%);}
+.c28 { background-color: hsl(280, 50%, 75%);}
+.c29 { background-color: hsl(290, 50%, 75%);}
+.c30 { background-color: hsl(300, 50%, 75%);}
+.c31 { background-color: hsl(310, 50%, 75%);}
+.c32 { background-color: hsl(320, 50%, 75%);}
+.c33 { background-color: hsl(330, 50%, 75%);}
+.c34 { background-color: hsl(340, 50%, 75%);}
+.c35 { background-color: hsl(350, 50%, 75%);}
+.c36 { background-color: hsl(360, 50%, 75%);}
